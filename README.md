@@ -1,0 +1,1 @@
+acorta.dor
