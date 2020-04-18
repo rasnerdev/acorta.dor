@@ -13,11 +13,13 @@ C:\xampp\htdocs\acortador\aqui_los_ficheros_del_proyecto
 ## Base de datos ⚙️
 La creación de base de datos la podéis hacer desde *phpMyAdmin*, por sentencia *SQL* o como deseéis. Su contenido consiste en una simple tabla llamada **URL**. La **sentencia SQL** para su creación sería la siguiente: 
 ```
+CREATE database acortador; 
+USE acortador; 
 CREATE TABLE `url` (
-  `id` int(11) NOT NULL,
+  `id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
   `url` varchar(255) COLLATE utf8_spanish_ci NOT NULL,
   `tourl` varchar(10) COLLATE utf8_spanish_ci NOT NULL
-)
+);
 ```
 ## Algunos ajustes más 🛠️
 Como he dicho, no he tardado demasiado en crearlo ya que fue una idea que me vino al vuelo, y por lo tanto hay cosas que habría que mejorar, pero de momento hay que cambiar un par de cosas. La primera, son los datos de conexión, que están en el fichero **class/Conexion.php**. 
