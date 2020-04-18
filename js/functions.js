@@ -27,8 +27,7 @@ $(function(){
                 success: function(data){
                     if(data.success){
                         $("input[name=recibida]").val("http://localhost/acortador/"+data.short);
-                    $( "#resultado" ).slideDown( "slow", function() {
-                      });
+                        $("#resultado").slideDown( "slow", function() {});
                     }else{
                         $("#formurl").effect("bounce", {times:3}, 300);
                     }

@@ -1,9 +1,7 @@
 <?php
-// Clases necesarias.
-require_once("./class/Url.php"); 
-require_once("./class/Conexion.php"); 
+    require_once("./class/Url.php"); 
+    require_once("./class/Conexion.php"); 
     
-//Controladores
     if(!empty($_GET["url"])){
         $acortador = $_GET["url"];
         Header("Location:".Url::dameAcortador($acortador)->getUrl());

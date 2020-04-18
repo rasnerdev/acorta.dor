@@ -6,5 +6,4 @@ RewriteRule ^.*$ https://%{SERVER_NAME}%{REQUEST_URI} [R,L]
 RewriteCond %{REQUEST_URI} /+[^.]+$
 RewriteRule ^(.+[^/])$ %{REQUEST_URI}/ [R=301,L]
 
-# URLs normales, colabora, etc.... El parámetro que recibe es el tipo de contenido que debe mostrarse. 
 RewriteRule ^(\w+)/?$ ./index.php?url=$1 [L]
