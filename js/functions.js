@@ -19,7 +19,7 @@ $(function(){
         if(msg != ''){
             $.ajax({
                 data: parametros, 
-                url:   '/acortador/process/valida.php',
+                url:   '/acorta.dor/process/valida.php',
                 type:  'POST', 
                 dataType : 'json',
                 beforeSend: function(){

@@ -1,6 +1,6 @@
 <section>
     <h1>Pega la URL que quieres acortar</h1>
-    <form id="acorta" action="./process/valida.php" method="POST">
+    <form id="acorta" action="/acorta.dor/process/valida.php" method="POST">
         <div id="formurl">
             <input type="text" name="url" autocomplete="off" placeholder="Ej: https://misitioweb.com/directorio/archivo.html">
             <input type="submit" value="¡Dame una URL!">

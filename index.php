@@ -14,7 +14,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/acortador/css/estilo.css">
+    <link rel="stylesheet" href="/acorta.dor/css/estilo.css">
     <title>Acorta.dor</title>
 </head>
 <body>
@@ -23,6 +23,6 @@
         require_once("./includes/home.php");
         require_once("./includes/footer.php");
     ?>
-    <script type="text/javascript" src="/acortador/js/functions.js">
+    <script type="text/javascript" src="/acorta.dor/js/functions.js"></script>
 </body>
 </html>
